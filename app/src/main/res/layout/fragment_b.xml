@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4E034"
+    tools:context="com.qubitsolutionlab.FragExample.BFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/navigation_drawer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Navigation Drawer">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

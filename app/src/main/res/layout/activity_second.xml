@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/black"
+            app:title="SecondActivity"
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:text="Darshan kacha"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_sec"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt"
+        android:layout_centerInParent="true"
+        android:text="Darshan kacha"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_sec"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/onebald"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dialog"
+            android:textSize="15dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/twobald"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="1dp"
+            android:text="2btn dialog"
+            android:textSize="15dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/threebald"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="1dp"
+            android:text="3btn Dialog"
+            android:textSize="15dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/demofrga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="demofrga"
+        android:textSize="15dp">
+
+    </Button>
+
+</RelativeLayout>
